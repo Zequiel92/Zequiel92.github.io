@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+}
+
+.foto img {
+	border: 1px solid black;
+	padding: 3px;
+	background-color: white;
+	position: relative;
+	top: -5px;
+	left: -5px;
+}
+.figura p{
+	font: 1em helvetica;
+	margin: 10px 0 0 0;
+	height: 5em;
+}
+
+.figura {
+	float: left;
+	width: 210px;
+	margin: 0 10px 10px 10px;
+}
+
+.foto {
+	background: url('img/giphy.gif') right bottom no-repeat;
+}
+
+.cabeza {
+	background-color: skyblue;
+	padding: 20px;
+	position: relative;
+	left: auto;
+	width: ;
+
+
+}

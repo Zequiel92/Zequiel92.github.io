@@ -1,0 +1,586 @@
+body {
+	font-family: Courier;
+	background-color: mediumseagreen;
+}
+
+.sub-info h1{
+	font-size: 50px;
+}
+.sub-info {
+	box-sizing: border-box;
+}
+.sub-info h2{
+	font-size: 30px;
+	box-sizing: border-box;
+}
+.sub-info h3{
+	font-size: 20px;
+}
+.contactos a{
+	font-size: 12px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+}
+.contactos a:hover{
+	font-size: 12px;
+	background-color: mediumseagreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+}
+
+
+/* Todo el contenido de la pagina*/
+.contenedor {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* imagen, nombres, perfil, contacto */
+.cabecera{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+
+
+/* foto de perfil */
+/*object-fit: contain para ajustar la imagen al div*/
+.perfil img{
+	width: 30%;
+	height: 30%;
+	object-fit: cover;
+	border-radius: 120px;
+	border: 4px solid mediumseagreen;
+
+}
+
+
+
+/*centrando un div propiedades margin y padding*/
+.sobre-mi {
+	background-color: lightgreen;
+	width: 60%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+
+.sobre-mi .about{
+	font-size: 30px;
+}
+.sobre-mi p{
+	font-size: 20px;
+}
+
+
+/* TECNOLOGÍAS */
+
+.bloque-tecnologias {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+}
+
+.bloque-tecnologias .tecnologia-titulo {
+	font-size: 30px;
+}
+
+.bloque-tech {
+	margin: 30px;
+	display: inline-flex;
+}
+
+.bloque-tech span {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+/* PROYECTOS */
+.proyectos {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+}
+
+/* TITULO */
+.titulo{
+	font-size: 30px;
+
+}
+
+.info-1 {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.info-2 {
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+.stack-1{
+	margin: 20px;
+}
+
+.stack-1 span {
+	padding: 10px;
+	background-color: lightgreen;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+
+.links-1{
+	margin: 30px;
+}
+.links-1 a{
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	background-color: mediumseagreen;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+.links-1 a:hover{
+	color: black;
+	text-decoration: underline;
+	padding: 5px;
+	background-color: mediumseagreen;
+	border-radius: 20px;
+}
+
+
+.stack-2 {
+	margin: 20px;
+}
+
+.stack-2 span{
+	padding: 10px;
+	background-color: lightgreen;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+
+.links-2{
+	margin: 30px;
+}
+
+.links-2 a{
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	background-color: mediumseagreen;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+.links-2 a:hover{
+	color: black;
+	text-decoration: underline;
+	padding: 5px;
+	background-color: mediumseagreen;
+	border-radius: 20px;
+}
+
+
+/* FORMACIÓN */
+/*
+.bloque-formacion{
+	background-color: white;
+	width: 60%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.formacion-titulo {
+	font-size: 30px;
+}
+
+.formacion-01{
+	display: grid;
+	box-sizing: border-box;
+	border: 1px solid black;
+	justify-content: center;
+	background-color: lightgreen;
+}
+.form-1 {
+	display: grid;
+	margin-left: 10%;
+}
+
+.formacion-02{
+	display: grid;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: lightgreen;
+	justify-content: center;
+}
+.form-2{
+	display: grid;
+	margin-left: 10%;
+
+}
+*/
+
+/* LINEA DE TIEMPO */
+.line-time{
+	position: relative;
+	max-width: 60%;
+	margin: auto;
+}
+
+.line-time{
+	text-align: center;
+}
+
+.line-time h3{
+	margin-bottom: 5px;
+}
+
+.box {
+	position: relative;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.box:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -35%;
+	transform: translateY(-50%);
+	width: 2px;
+	height: 40px;
+	background-color: mediumseagreen;
+}
+
+.box:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: mediumseagreen;
+}
+
+
+
+
+
+/*Responsive */
+
+
+@media screen and (max-width: 838px){
+	.contactos a{
+	font-size: 10px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+	.cabecera {
+		width: 50%;
+	}
+	.perfil img{
+		object-fit: cover;
+		width: 50%;
+	}
+
+	.sobre-mi {
+	background-color: lightgreen;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+
+	}
+
+	.bloque-tecnologias {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+	}
+
+	.proyectos {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+	}
+}
+
+@media screen and (max-width: 759px){
+	.contactos a{
+	font-size: 10px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	}
+
+	.cabecera {
+		width: 60%;
+	}
+
+	.sobre-mi {
+	background-color: lightgreen;
+	width: 60%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+
+	}
+
+	.bloque-tecnologias {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+	}
+
+	.proyectos {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 681px){
+	.contactos a{
+	font-size: 10px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+	.cabecera{
+		width: 80%;
+	}
+	.sobre-mi {
+		background-color: lightgreen;
+		width: 80%;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		text-align: center;
+	}
+	.perfil img{
+		object-fit: cover;
+		width: 50%;
+	}
+
+	.bloque-tecnologias {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+	}
+
+	.proyectos {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 545px){
+	.bloque-tecnologias {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+	}
+	.bloque-tech {
+		display: grid;
+	}
+
+	.proyectos {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+	}
+}
+
+@media screen and (max-width: 448px){
+	.contactos a{
+	font-size: 10px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	display: grid;
+	}
+	.cabecera .sub-info{
+		width: 100%;
+
+	}
+	.perfil img{
+		object-fit: cover;
+	}
+
+	.sobre-mi {
+	background-color: lightgreen;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+	.bloque-tecnologias {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: lightgreen;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.contactos a{
+	font-size: 10px;
+	background-color: lightgreen;
+	margin: 0 10px 10px 10px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	display: grid;
+	}
+	.cabecera .sub-info{
+		width: 100%;
+		box-sizing: border-box;
+
+
+	}
+	.perfil img{
+		object-fit: cover;
+	}
+
+	.sobre-mi {
+	background-color: lightgreen;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+	.proyectos {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+	}
+}
+
+@media screen and (max-width: 333px){
+	.stack-1 {
+		display: grid;
+		justify-content: center;
+		
+	}
+
+	.stack-2 {
+		display: grid;
+		justify-content: center;
+		
+	}
+}
+
+
+
